@@ -10,3 +10,8 @@ To use it, rename the included apikey.example to apikey.py and include your API 
 
 Don't have one? Email APIKeyRequest@ptv.vic.gov.au with subject "PTV Timetable API - request for key"
 
+**Changes**
+1. Changed to the new [V3 API](timetableapi.ptv.vic.gov.au/swagger/ui/index)
+* replaced ```transportPOIsByMap``` with ```search```
+* replaced ```broadNextDepartures``` with ```departures```
+2. Changed to Python3
